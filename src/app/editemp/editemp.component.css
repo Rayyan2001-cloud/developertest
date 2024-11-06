@@ -1,0 +1,59 @@
+.mainbox{
+    padding: 15px;
+    margin: 20px;
+
+}
+.mainhead{
+    display: flex;
+    justify-content: space-between;
+
+}
+.maintxt{
+    text-align: center;
+}
+.maincontent{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    gap:20px;
+}
+.addnewemp{
+    border: 2px ,solid,black;
+    border-radius: 10px;
+    padding: 20px;
+    width:50%;
+}
+.user{
+    display: flex;justify-content: center;
+}
+.eachemp{
+    margin: 10px;
+}
+.input{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.empMsg{
+    text-align: center;
+}
+.formsbtns{
+    display: flex;
+    justify-content: space-between;
+}
+.empbtn{
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px, solid,black;
+
+}
+.empbtn:hover{
+    background-color: black;
+    color: white;
+}

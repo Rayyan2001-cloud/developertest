@@ -1,0 +1,25 @@
+{
+  "EmpData": [
+    {
+      "id": "ac20",
+      "EmpName": "Sara",
+      "EmpPos": "Manager",
+      "EmpDep": "HR",
+      "EmpRate": 4
+    },
+    {
+      "id": "9f62",
+      "EmpName": "Jone",
+      "EmpPos": "Data Analysis",
+      "EmpDep": "IT",
+      "EmpRate": 3
+    },
+    {
+      "id": "e368",
+      "EmpName": "Sara",
+      "EmpPos": "Manager",
+      "EmpDep": "HR",
+      "EmpRate": 3
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+<main class="maintab">
+    <div class="mainhead">
+        <h1 class="maintxt">View All Employees</h1>
+        <button class="btn"(click)="gotoAdd()">Add Employee</button>
+        
+
+    </div>
+    <div>
+            <input
+            type="text"
+            placeholder="Search by name or department"
+            class="form-control"
+          />
+
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Department</th>
+                <th>Rating</th>
+                <th>Action</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr *ngFor="let emp of employees">
+                <td>{{emp.id}}</td>
+                <td>{{emp.EmpName}}</td>
+                <td>{{emp.EmpPos}}</td>
+                <td>{{emp.EmpDep}}</td>
+                <td>{{emp.EmpRate}}</td>
+                <td>
+                    <button class="delimg" ><img src="delete.png" alt="Delete" height="40"></button>
+                    
+                   <a routerLink="/editEmp/{{emp.id}}"><img src="edit.png" alt="Edit" height="40"></a>
+                </td>
+
+            </tr>
+
+        </tbody>
+    </table>
+
+</main>

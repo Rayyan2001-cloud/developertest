@@ -1,0 +1,49 @@
+<main class="mainbox">
+
+    <div class="mainhead">
+        <h1 class="maintxt">Add New Employee</h1>
+        <button class="btn" (click)="gotoView()">View Employees</button>
+        
+    </div>
+    <div class="maincontent">
+        <form #newEmpdata="ngForm" class="addnewemp" (ngSubmit)="submitEmp()">
+            <div class="user">
+                <img src="userprofile.png"alt="New User" height="100">
+            </div>
+            <div class="eachemp">
+                <label><b>Employee Name</b></label>
+                <br>
+                <input type="text" class="eachinput" [(ngModel)]="empobject.EmpName" required name="EmpName">
+
+            </div>
+            <div class="eachemp">
+                <label><b>Employee Position</b></label>
+                <br>
+                <input type="text" class="eachinput" [(ngModel)]="empobject.EmpPos" required name="EmpPos">
+    
+            </div>
+            <div class="eachemp">
+                <label><b>Employee Department</b></label>
+                <br>
+                <input type="text" class="eachinput" [(ngModel)]="empobject.EmpDep" required name="EmpDep">
+    
+            </div>
+            <div class="eachemp">
+                <label><b>Rating</b></label>
+                <br>
+                <input type="number" class="eachinput" [(ngModel)]="empobject.EmpRate" required name="EmpRate">
+    
+            </div>
+            <p class="empMsg">{{empMessage}}</p>
+            <div class="formsbtns">
+                <button class="empbtn">Submit</button>
+                <button class="empbtn" (click)="clearform()">Clear</button>
+
+
+            </div>
+        </form>
+        <img src="addemptoweb.png" alt="" height="300">
+        
+
+    </div>
+</main>

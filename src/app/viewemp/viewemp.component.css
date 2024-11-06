@@ -1,0 +1,41 @@
+.maintab{
+    padding: 15px;
+    margin: 20px;
+}
+
+.mainhead{
+    display: flex;
+    justify-content: space-between;
+}
+.maintxt{
+    text-align: center;
+
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td,th{
+    border:1px solid black;
+    text-align: center;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.delimg{
+    background-color: white;
+    border: 2px,solid,white;
+}
+img{
+    margin: 10px;
+    cursor: pointer;
+}
+.form-control{
+    border:1px, solid, black;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+}
